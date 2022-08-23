@@ -14,12 +14,12 @@ function findFirstZero(arr, low, high) {
     return -1;
   }
 
-  function countZeroes(arr) {
+function countZeroes(arr) {
     let n = arr.length;
     let firstZero = findFirstZero(arr, 0, n-1)
     if (firstZero === -1) {
         return 0;  }
     return n - firstZero
-  }
+}
 
 module.exports = countZeroes
