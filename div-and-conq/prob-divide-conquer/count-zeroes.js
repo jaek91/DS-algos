@@ -1,4 +1,4 @@
-
+//------credit: Springboard solutions-------//
   
 function findFirstZero(arr, low, high) {
     if (high >= low) {

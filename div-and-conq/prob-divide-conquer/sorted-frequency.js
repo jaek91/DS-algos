@@ -1,4 +1,4 @@
-//credit: Springboard solutions
+//------credit: Springboard solutions-------//
 
 function sortedFrequency(arr, num) {
     let firstIdx = findFirst(arr, num);

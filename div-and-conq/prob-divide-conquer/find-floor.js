@@ -1,10 +1,12 @@
+//------credit: Springboard solutions-------//
+
 
 function findFloor(arr, num, low = 0, high = arr.length - 1) {
     
     if (num >= arr[high]) return arr[high];
 
     if (low > high) return -1;
-    
+
     //find the middle index of the array
     let mid = Math.floor((low + high) / 2)
   
